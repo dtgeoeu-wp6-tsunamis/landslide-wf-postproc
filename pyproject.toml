@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "amp-factor-workflow"
+version = "0.1.0"
+description = ""
+authors = ["valentina.magni <valentina.magni@ngi.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.6"
+logger = "^1.4"
+scipy = "^1.15.3"
+pandas = "^2.3.0"
+matplotlib = "^3.10.3"
+cartopy = "^0.24.1"
+netcdf4 = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
