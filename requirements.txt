@@ -1,0 +1,7 @@
+numpy
+logger
+scipy
+pandas
+matplotlib
+cartopy
+netcdf4
