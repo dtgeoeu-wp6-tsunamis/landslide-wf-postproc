@@ -12,7 +12,8 @@ from ampfact_func import ampfact_func
 
 def read_hysea_results(sim_file):
     """
-    Read simulation results after ampflication factors postprocessing and return lists of id, longitude, latitude, and MIH values.
+    Read simulation results after amplification factors postprocessing and return lists of id, longitude, latitude, and MIH values.
+    - sim_file: name of file with MIH values at each POI for a specific scenario computed by the amplification factor postprocessing.
     """
     with open(sim_file, "r") as f:
         lines = f.readlines()[1:]  # skip first line

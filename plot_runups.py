@@ -27,8 +27,8 @@ def read_bathymetry(bathyfile):
 
 def read_hysea_results(sim_file):
     """
-    Read simulation results from the time series output of T-HySEA and return lists of id, longitude, latitude, and MIH values.
-    - sim_file: name of the HySEA simulation results file containing the time series.
+    Read simulation results after amplification factors postprocessing and return lists of id, longitude, latitude, and MIH values.
+    - sim_file: name of file with MIH values at each POI for a specific scenario computed by the amplification factor postprocessing.
     """
     with open(sim_file, "r") as f:
         lines = f.readlines()[1:]  # skip first line
