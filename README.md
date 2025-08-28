@@ -49,4 +49,4 @@ The code that executes the postprocessing of the time series of T-HySEA is by An
 
 ## License
 This project is licensed under the Non-Profit Open Software License version 3.0 (NPOSL-3.0).
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](./LICENSE.txt) file for details.
